@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="Daniella Latham">
+
+
+    <meta name="subtitle" content="Daniella Latham's website and blog">
+
+
+    <meta name="description" content="My blog">
+
+
+
+<title>How to pivot your positioning in times of upheaval | Daniella Latham</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">Home</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">Articles</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">Home</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">Articles</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">How to pivot your positioning in times of upheaval</h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">Daniella Latham</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">June 19, 2020&nbsp;&nbsp;17:35:50</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <p>Since the COVID-19 outbreak hit hard in early 2020 and much of the world faced economic shutdown, businesses of all industries had to quickly pivot their models to cope. </p>
+<p>I was fortunate that my company’s core product was designed with the capacity to shift to online, as it’s a hybrid e-learning company. Yet, we had to rapidly modify product marketing strategy and tactics, to move away from what had been delivered in the past year and be relevant to the unfolding crisis.</p>
+<p>As learning platform software, most of our use came from in-person learning experiences - classrooms, meetings, training, and events. We wanted to continue to support the needs of our users, as well as manage a broad user base. </p>
+<p>In this article, I’ll go through some of the key steps we took to pivot our positioning and messaging to reflect the rapidly changing characteristics of our buyers, and understand their changing needs and behavior.</p>
+<h2 id="Keyword-research-audit"><a href="#Keyword-research-audit" class="headerlink" title="Keyword research audit"></a>Keyword research audit</h2><p>It’s a good practice to do long-tail keyword research once every six months or so, in a normal situation. Yet the pandemic meant we had to quickly update this to understand rapidly changing behavior. We needed to understand:</p>
+<ol>
+<li>How were user/buyer needs changing?</li>
+<li>What is the actual data behind the “feeling” of the situation?</li>
+</ol>
+<p>For example, were people searching for <em>“online learning”</em>, or <em>“virtual learning”</em>? <em>“Remote meetings”</em>, or <em>“online meetings”</em>, and so on. What did people actually need?</p>
+<p>I strongly recommend using a tool such as <a href="https://keywordtool.io" target="_blank" rel="noopener"><strong>Keyword Tool</strong></a> for long-tail keyword research, and cross-comparing against <a href="https://trends.google.com/" target="_blank" rel="noopener"><strong>Google Trends</strong></a>. </p>
+<p><img src="https://cdn-images-1.medium.com/max/1600/1*uqSyfYUFq-5S4cV_LLNqlQ.png" alt="alt text"></p>
+<p>I also receive a newsletter called <a href="https://explodingtopics.com/" target="_blank" rel="noopener"><strong>Exploding Topics</strong></a>, which I discovered a few months ago. It’s sent out weekly, and covers searches that are increasing exponentially - you can segment by categories such as product, business, technology, design, and more.</p>
+<p><img src="https://cdn-images-1.medium.com/max/1600/1*W-3HDBkwiWNwL7BDH4jA2g.png" alt="alt text"></p>
+<p>Whilst I am a big fan of Google Trends, it’s vital not to be driven just by trends in the moment, and try to avoid buzzwords. Look at the data overall to get a clear picture, to help <strong>inform your messaging</strong>.</p>
+<h2 id="Review-your-website-pages"><a href="#Review-your-website-pages" class="headerlink" title="Review your website pages"></a>Review your website pages</h2><p>Now you have some data, it’s time to review which pages are crucial to your buyer journey. Which web pages get the most hits? Are there any clear drop-off points? Can you pinpoint where will you need to update your messaging?</p>
+<p>Once you have answered these questions, you will need to audit your key webpages.<br>Audit your key website pages - I recommend using a tool such as <a href="https://www.lucidchart.com/" target="_blank" rel="noopener"><strong>Lucidchart</strong></a> to build out the hierarchy and visually recognize which pages you need to prioritize. </p>
+<p><img src="https://cdn-images-1.medium.com/max/1600/1*AdcYQSGYTLXCsHfrIWlr8Q.png" alt="alt text"></p>
+<p>Once you have everything crystal clear, you can start to make the updates you need.</p>
+<h2 id="Competitor-tracking-time-to-refresh"><a href="#Competitor-tracking-time-to-refresh" class="headerlink" title="Competitor tracking - time to refresh!"></a>Competitor tracking - time to refresh!</h2><p>The next step to take alongside doing your internal research is to look externally. How have your competitors adapted?</p>
+<p>Strong product marketers will have their fingers on the pulse with their competitors, but in times of rapid change you should watch them more closely than ever. We all have limited resources, so focus on your key 4-5 competitors. By all means, keep track of new competitors coming in, and over time your key ones may change, but only spend significant time focusing on a maximum of five. Especially focus on how their messaging changes in times of change.</p>
+<p><strong>What should you track about your competitors?</strong></p>
+<p>At minimum, you should know the below:</p>
+<ul>
+<li>Company web page &amp; profile</li>
+<li>Target market    </li>
+<li>Market share (how many users)</li>
+<li>Key comms &amp; messaging    </li>
+<li>Product and services    </li>
+<li>Pricing &amp; tiers    </li>
+<li>Distribution channels    </li>
+<li>Key integrations    </li>
+<li>Followers and engagement on social media channels</li>
+</ul>
+<h2 id="The-final-step-updating-positioning-documents"><a href="#The-final-step-updating-positioning-documents" class="headerlink" title="The final step - updating positioning documents"></a>The final step - updating positioning documents</h2><p>Now, how can you cement your messaging in one place? Here is where your trusty positioning documents come in! These are your bread and butter and should be the <em>“one source of truth”</em> that teams use to understand how you market products. Therefore, find a good template and stick to it! There are a wealth of good options out there to choose from.</p>
+<p>Update your positioning documents with all your findings - what has changed? Be sure to keep track of all changes - both so you know what your former (i.e. pre-upheaval) positioning was, your current positioning, and if you anticipate any more changes in the near future.</p>
+<p><strong>What should be in your positioning documents?</strong></p>
+<ul>
+<li>Product name &amp; category - what is the product?</li>
+<li>Positioning statement (internal &amp; external) - what is the overview?</li>
+<li>Target audience - who will use it?</li>
+<li>Value Proposition - what are the benefits, and what problems do they solve? Aim for no more than 3-4</li>
+<li>Differentiator - what sets you apart from others?</li>
+<li>Messaging pillars - what actual words will you use to describe your product?</li>
+<li>Competitors - what do they do, and what is their top-level messaging?</li>
+</ul>
+<p>Taking all these steps and making sure you have the right tools in your aresnal will ensure you are one step ahead of the curve, and can handle upheaval. </p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span>Daniella Latham</span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Permalink:</span>
+                        <span><a href="https://daniellalatham.com/pivot-positioning-times-upheaval/">https://daniellalatham.com/pivot-positioning-times-upheaval/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>License:</span>
+                        <span>Copyright (c) 2019 <a href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC-BY-NC-4.0</a> LICENSE</span>
+                    </p>
+                
+                
+                     <p class="copyright-item">
+                         <span>Slogan:</span>
+                         <span></span>
+                     </p>
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/tags/product-marketing/"># product marketing</a>
+                    
+                        <a href="/tags/marketing/"># marketing</a>
+                    
+                        <a href="/tags/software/"># software</a>
+                    
+                        <a href="/tags/value-proposition/"># value proposition</a>
+                    
+                        <a href="/tags/positioning/"># positioning</a>
+                    
+                        <a href="/tags/messaging/"># messaging</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/grow-professional-network-virtually-during-pandemic/">How I grew my professional network virtually during the global pandemic</a>
+            
+            
+            <a class="next" rel="next" href="/what-why-how-tracking-brand-awareness/">The what, why and how of tracking brand awareness</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© Daniella Latham </span>
+    </div>
+</footer>
+
+    </div>
+</body>
+</html>

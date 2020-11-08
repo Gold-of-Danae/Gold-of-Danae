@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'lanting';
+  src: url("../fonts/lanting/glacial.ttf") format('opentype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  font-weight: 300;
+  font-display: swap;
+}
