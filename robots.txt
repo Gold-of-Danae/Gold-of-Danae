@@ -1,0 +1,3 @@
+Sitemap: https://popsy-production-sitemaps.s3.us-west-1.amazonaws.com/pmm.daniellalatham.com/sitemap.xml
+User-agent: *
+Disallow:
